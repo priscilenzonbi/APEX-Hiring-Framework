@@ -1,0 +1,7 @@
+pandas
+scipy
+
+# Needed only for live model runs, not for the offline demo:
+# anthropic
+# openai
+# google-generativeai
