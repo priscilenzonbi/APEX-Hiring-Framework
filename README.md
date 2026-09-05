@@ -4,10 +4,7 @@ Evaluation harness for measuring geographic and credential bias in AI-mediated h
 
 ## Status
 
-This repository contains the evaluation harness and a synthetic demo dataset. It supports an
-ongoing matched-pair correspondence audit of frontier language models, currently under peer
-review at ACM FAccT. The full study dataset and qualitative findings will be released after
-publication. What's published here is the infrastructure, not the results.
+This repository contains the evaluation harness and a synthetic demo dataset. It supports an ongoing matched-pair correspondence audit of frontier language models. The full study dataset and qualitative findings will be released after the associated paper completes peer review. What's published here is the infrastructure, not the results.
 
 ## What this does
 
@@ -16,10 +13,7 @@ attribute that should not affect a hiring decision, such as where a credential w
 sends them to one or more frontier models for a hiring judgement, and scores the resulting
 decisions for disparity between matched pairs.
 
-Pilot results from the full study (four models, six occupational trades, 5,760 logged
-judgements): every standard-run comparison was statistically significant at p < 0.0001, with
-false-rejection rates on internationally credentialed candidates ranging from 3.3% to 63.3%
-depending on the model.
+Pilot results from the full study show a consistent and statistically significant penalty against internationally credentialed candidates across every model tested, with the size of the effect varying substantially by model. Full figures will be released alongside the paper.
 
 ## Structure
 
